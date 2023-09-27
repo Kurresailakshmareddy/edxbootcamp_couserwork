@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bio</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <header>
     <h1>Student Bio</h1>
-    <h2>Kurre Sai Lakshma Reddy</h2>
-    <img src="./WhatsApp Image 2022-10-17 at 21.24.12.jpg" alt="Kurre Sai Lakshma Reddy">
-    <p>I am a Front-End Developer </p>
-    <h2>Contact Info</h2>
-    <ul>
-        <li>Email:<a href="mailTo:Kurresailakshmareddy@gmail.com"> Kurresailakshmareddy@gmail.com</a></li>
-        <li>GitHub: <a href="https://github.com/"> Here is My Github Link</a></li>
-        <li>Portfolio: <a href="#"> Coming Soon</a></li>
-    </ul>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>Kurre Sai Lakshma Reddy</h2>
+
+      <img src="./WhatsApp Image 2022-10-17 at 21.24.12.jpg" alt="Kurre sai lakshma reddy" id="bio-image">
+
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat esse sint aspernatur vitae. Quibusdam non officiis, mollitia ut alias rerum quas quo magnam, 
+        recusandae atque asperiores pariatur veritatis quidem sunt.</p>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailTo:kurresaillakshmareddy@gmail.com">kurresaillakshmareddy@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/">Kurre Sai Lakshma Reddy</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
+
 </body>
+
 </html>
