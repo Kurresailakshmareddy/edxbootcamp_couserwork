@@ -4,11 +4,12 @@ body{
     color:#333333;
     margin: 0px;
     padding:0px;
+    line-height: 1.5;
 }
 
 header{
     background-color: #333333;
-    margin:0px;
+    margin:0;
 }
 
 h1{
@@ -16,30 +17,39 @@ h1{
     font-size: 28px;
     text-align: center;
     margin: 0px;
+    padding: 20px 0 ;
 }
 
 h2{
    font-size: 24px;
-   width:1024px;
-   margin:0px 10;
-  justify-content: center;
+}
+
+a{
+  color:#d21034;
+}
+
+.container{
+    width:1024px;
+    margin:0 auto;
+}
+
+#main-bio, #contact-info,
+#bio-image{
+    float:left;
 }
 
 #main-bio{
-  float: left;
   width:70%;
 }
 
 #contact-info{
-    float: left;
     width: 30%;
-    line-height: 1.5;
 }
 
 #bio-image{
-    float: left;
     width:200px;
-    margin: 20px;
+    height: 200px;
+    margin-right: 20px;
 }
 
 
