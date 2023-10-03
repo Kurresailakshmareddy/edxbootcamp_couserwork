@@ -54,4 +54,25 @@ a{
 }
 
 
+.flex{
+    display: flex;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 15px;
+    background-color: grey;
+}
 
+#column{
+    flex-direction: column;
+}
+
+#row{
+    flex-direction: row;
+}
+
+.flex_item{
+    background-color: aqua;
+    margin: 10px;
+    padding:10px;
+    border: 2px solid crimson ;
+}
